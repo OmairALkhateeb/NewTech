@@ -1,5 +1,3 @@
-'use client';
-
 import React from 'react';
 import { useRouter } from 'next/navigation';
 
@@ -16,7 +14,7 @@ interface WorksSectionProps {
 
 const projects = [
   { slug: 'Major', image: '/major.png', link: 'https://major-kappa.vercel.app/en' },
-  { slug: 'affiene', image: '/Caffiene_thumb.png' },
+  { slug: 'Caffiene', image: '/Caffiene_thumb.png' },
   { slug: 'OBAA', image: '/obaa_logo.jpg' },
   { slug: 'Alfahed', image: '/alfahed.jpg' },
   { slug: 'POS', image: '/pos_thumb.png' },
@@ -32,6 +30,12 @@ export default function WorksSection({ sections, scrollToSection }: WorksSection
     } else {
       router.push(`/projects/${slug}`);
     }
+  };
+
+  // Helper to check if screen is small
+  const isSmallScreen = () => {
+    if (typeof window === 'undefined') return false;
+    return window.innerWidth <= 640; // Tailwind 'sm' breakpoint is 640px
   };
 
   return (
@@ -68,6 +72,12 @@ export default function WorksSection({ sections, scrollToSection }: WorksSection
             <div
               key={slug}
               className="relative group rounded-2xl overflow-hidden shadow-lg cursor-pointer"
+              // Add onClick only for small screens
+              onClick={() => {
+                if (isSmallScreen()) {
+                  handleViewDetails(slug, link);
+                }
+              }}
             >
               <img
                 src={image}
@@ -79,7 +89,10 @@ export default function WorksSection({ sections, scrollToSection }: WorksSection
 
               <div className="absolute inset-0 flex flex-col justify-end items-center text-center px-4 pb-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <button
-                  onClick={() => handleViewDetails(slug, link)}
+                  onClick={(e) => {
+                    e.stopPropagation(); // prevent triggering parent's onClick
+                    handleViewDetails(slug, link);
+                  }}
                   className="px-4 py-2 rounded font-semibold"
                   style={{ backgroundColor: '#292F36', color: '#fff' }}
                 >
