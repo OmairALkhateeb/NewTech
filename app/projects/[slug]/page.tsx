@@ -39,7 +39,7 @@ export default function ProjectDetailPage(props: ProjectPageProps) {
 
   return (
     <div
-      className="min-h-screen text-white p-6 md:p-12 flex flex-col items-center justify-center"
+      className="min-h-screen p-4 sm:p-8 flex flex-col items-center justify-center relative"
       style={{
         backgroundImage: "url('/works_background.png')",
         backgroundSize: 'cover',
@@ -47,8 +47,11 @@ export default function ProjectDetailPage(props: ProjectPageProps) {
         backgroundRepeat: 'no-repeat',
       }}
     >
-      <div className="max-w-7xl w-full flex flex-col md:flex-row items-center md:items-start gap-12">
-        {/* Left side: Image and buttons */}
+      {/* overlay for better text visibility */}
+      <div className="absolute inset-0 bg-black/60 pointer-events-none"></div>
+
+      <div className="relative max-w-7xl w-full flex flex-col md:flex-row items-center md:items-start gap-10 sm:gap-12">
+        {/* Left: Image + buttons */}
         <div className="flex flex-col items-center w-full md:w-1/2 max-w-xl">
           <div
             className={`rounded shadow-lg overflow-hidden w-full transition-opacity duration-300 ${
@@ -60,6 +63,7 @@ export default function ProjectDetailPage(props: ProjectPageProps) {
               src={project.images[currentIndex]}
               alt={`Project image ${currentIndex + 1}`}
               className="object-cover w-full h-full"
+              loading="lazy"
             />
           </div>
 
@@ -79,12 +83,14 @@ export default function ProjectDetailPage(props: ProjectPageProps) {
           </div>
         </div>
 
-        {/* Right side: Title and Description */}
-        <div className="w-full md:w-1/2 max-w-2xl text-left">
-        <h1 className="text-5xl font-bold mb-6 text-center">{project.title}</h1>
+        {/* Right: Title + Description */}
+        <div className="w-full md:w-1/2 max-w-2xl px-4 md:px-0 text-center md:text-left">
+          <h1 className="text-4xl sm:text-5xl font-bold mb-6 leading-tight text-white drop-shadow-md">
+            {project.title}
+          </h1>
 
           <p
-            className="text-xl text-right"
+            className="text-lg sm:text-xl text-gray-200 font-light"
             style={{ fontFamily: "'Cairo', sans-serif" }}
           >
             {project.description}
@@ -92,7 +98,10 @@ export default function ProjectDetailPage(props: ProjectPageProps) {
         </div>
       </div>
 
-      <Link href="/#work" className="inline-block mt-10 text-[#12f7d6] hover:underline">
+      <Link
+        href="/#work"
+        className="inline-block mt-10 text-[#12f7d6] hover:underline"
+      >
         ← Back to Projects
       </Link>
     </div>
