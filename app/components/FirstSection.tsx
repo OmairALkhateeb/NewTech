@@ -18,7 +18,7 @@ export default function FirstSection({ sections, scrollToSection }: FirstSection
   return (
     <section
       id="home"
-      className="relative min-h-screen p-3 sm:p-5 md:p-10 pt-20 md:pt-10 bg-[#292F36] flex justify-center items-center overflow-x-hidden"
+      className="relative min-h-screen p-3 sm:p-5 md:p-10 pt-20 md:pt-10 bg-[#292F36] flex justify-center items-start overflow-x-hidden"
     >
       {/* New wrapper to clamp width to viewport and hide overflow */}
       <div className="w-screen max-w-screen overflow-x-hidden flex flex-col items-center text-white max-w-xl sm:max-w-4xl md:max-w-7xl mt-0 md:mt-0">
