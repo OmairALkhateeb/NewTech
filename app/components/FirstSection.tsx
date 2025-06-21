@@ -18,18 +18,19 @@ export default function FirstSection({ sections, scrollToSection }: FirstSection
   return (
     <section
       id="home"
-      className="relative min-h-screen p-3 sm:p-5 md:p-10 bg-[#292F36] flex justify-center items-center"
+      className="relative min-h-screen p-3 sm:p-5 md:p-10 pt-20 md:pt-10 bg-[#292F36] flex justify-center items-center overflow-x-hidden"
     >
-      <div className="flex flex-col items-center text-white w-full max-w-xl sm:max-w-4xl md:max-w-7xl mt-[-90px]">
+      {/* New wrapper to clamp width to viewport and hide overflow */}
+      <div className="w-screen max-w-screen overflow-x-hidden flex flex-col items-center text-white max-w-xl sm:max-w-4xl md:max-w-7xl mt-0 md:mt-0">
         {/* Title - only on md and above */}
         <h2 className="hidden md:block text-2xl sm:text-3xl md:text-6xl lg:text-7xl font-bold p-2 sm:p-4 md:p-10 text-[#98FAEC] text-center leading-tight">
           NewTech<br />Team
         </h2>
 
         {/* Mobile Layout */}
-        <div className="flex flex-col gap-6 md:hidden w-full">
+        <div className="flex flex-col gap-6 md:hidden w-full max-w-full">
           {/* Main Text Block */}
-          <div className="flex flex-col w-full">
+          <div className="flex flex-col w-full max-w-full">
             <span className="text-[#12F7D6] text-sm">&lt;h1&gt;</span>
             <h3 className="text-lg sm:text-xl font-bold leading-snug">
               Hey,<br />
@@ -56,22 +57,24 @@ export default function FirstSection({ sections, scrollToSection }: FirstSection
             </p>
             <span className="text-[#12F7D6] text-sm">&lt;/p&gt;</span>
             <br />
-            <span style={{ color: '#12f7d6', fontSize: '1.1rem', display: 'inline-flex', alignItems: 'center' }}>
+            <span
+              style={{ color: '#12f7d6', fontSize: '1.1rem', display: 'inline-flex', alignItems: 'center' }}
+            >
               Let's Talk <i className="fas fa-envelope ml-2" />
             </span>
           </div>
 
-          {/* Skills then Numbers (reordered) */}
-          <div className="flex flex-col gap-y-4">
+          {/* Skills then Numbers */}
+          <div className="flex flex-col gap-y-2 max-w-full">
             {/* Skills */}
-            <div className="w-full">
+            <div className="w-full max-w-full">
               <div
-                className="p-4 bg-[#1A1E23] flex flex-col justify-center items-center text-center space-y-3 text-white text-sm"
+                className="p-4 bg-[#1A1E23] flex flex-col justify-center items-center text-center space-y-3 text-white text-sm border-[1px] border-[#12F7D6] max-w-full"
                 style={{
-                  borderTopLeftRadius: '80px',
-                  borderBottomRightRadius: '25px',
+                  borderTopLeftRadius: '105px',
+                  borderBottomRightRadius: '10px',
                   borderTopRightRadius: '25px',
-                  borderBottomLeftRadius: '25px',
+                  borderBottomLeftRadius: '10px',
                 }}
               >
                 <div>
@@ -90,13 +93,13 @@ export default function FirstSection({ sections, scrollToSection }: FirstSection
             </div>
 
             {/* Numbers */}
-            <div className="w-full">
+            <div className="w-full max-w-full">
               <div
-                className="p-4 bg-[#1A1E23] flex flex-col justify-center items-center text-center space-y-4 text-white text-sm"
+                className="p-4 bg-[#1A1E23] flex flex-col justify-center items-center text-center space-y-4 text-white text-sm border-[1px] border-[#12F7D6] max-w-full"
                 style={{
-                  borderTopLeftRadius: '25px',
-                  borderBottomRightRadius: '85px',
-                  borderTopRightRadius: '25px',
+                  borderTopLeftRadius: '10px',
+                  borderBottomRightRadius: '105px',
+                  borderTopRightRadius: '10px',
                   borderBottomLeftRadius: '25px',
                 }}
               >
@@ -117,11 +120,11 @@ export default function FirstSection({ sections, scrollToSection }: FirstSection
           </div>
         </div>
 
-        {/* Desktop layout */}
+        {/* Desktop layout (unchanged) */}
         <div className="hidden md:flex flex-row gap-12 justify-center w-full p-8">
           {/* Numbers */}
           <div
-            className="h-auto lg:h-[300px] w-1/4 p-5 bg-[#1A1E23] flex flex-col justify-center items-center text-center space-y-4 text-white text-sm sm:text-base"
+            className="h-auto lg:h-[300px] w-1/4 p-5 bg-[#1A1E23] flex flex-col justify-center items-center text-center space-y-4 text-white text-sm sm:text-base border-[1px] border-[#12F7D6]"
             style={{
               borderTopLeftRadius: '25px',
               borderBottomRightRadius: '25px',
@@ -177,7 +180,7 @@ export default function FirstSection({ sections, scrollToSection }: FirstSection
 
           {/* Skills */}
           <div
-            className="h-auto lg:h-[300px] w-1/4 p-5 bg-[#1A1E23] flex flex-col justify-center items-center text-center space-y-4 text-white text-sm sm:text-base"
+            className="h-auto lg:h-[300px] w-1/4 p-5 bg-[#1A1E23] flex flex-col justify-center items-center text-center space-y-4 text-white text-sm sm:text-base border-[1px] border-[#12F7D6]"
             style={{
               borderTopLeftRadius: '80px',
               borderBottomRightRadius: '85px',
