@@ -107,12 +107,12 @@ export default function FirstSection({ sections, scrollToSection }: FirstSection
                   <div className="text-white">+963 953 291 807</div>
                   <div className="text-[#12F7D6] font-semibold">Syria</div>
                 </div>
-                <div>
+{/*                 <div>
                   <div className="text-white">+966 55 123 4567</div>
                   <div className="text-[#12F7D6] font-semibold">Saudi Arabia</div>
-                </div>
+                </div> */}
                 <div>
-                  <div className="text-white">+49 170 1234567</div>
+                  <div className="text-white">+49 1575 0113701</div>
                   <div className="text-[#12F7D6] font-semibold">Germany</div>
                 </div>
               </div>
@@ -136,12 +136,12 @@ export default function FirstSection({ sections, scrollToSection }: FirstSection
               <div className="text-white text-lg sm:text-xl ">+963 953 291 807</div>
               <div className="text-[#12F7D6] font-semibold">Syria</div>
             </div>
-            <div className="flex flex-col space-y-2">
+{/*             <div className="flex flex-col space-y-2">
               <div className="text-white text-lg sm:text-xl ">+966 55 123 4567</div>
               <div className="text-[#12F7D6] font-semibold">Saudi Arabia</div>
-            </div>
+            </div> */}
             <div className="flex flex-col space-y-2">
-              <div className="text-white text-lg sm:text-xl ">+49 170 1234567</div>
+              <div className="text-white text-lg sm:text-xl ">+49 1575 0113701</div>
               <div className="text-[#12F7D6] font-semibold">Germany</div>
             </div>
           </div>
