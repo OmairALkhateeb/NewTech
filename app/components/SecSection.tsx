@@ -48,7 +48,8 @@ export default function SecSection({ sections, scrollToSection }: SecSectionProp
               <br />
               With departments strategically located in{' '}
               <span className="text-[#12F7D6] font-semibold">Syria</span>,{' '}
-              <span className="text-[#12F7D6] font-semibold">Saudi Arabia</span>, and{' '}
+{/*               <span className="text-[#12F7D6] font-semibold">Saudi Arabia</span>, */}
+              and{' '}
               <span className="text-[#12F7D6] font-semibold">Germany - Assen</span>, we combine local expertise with global reach to drive your success.
             </p>
             <span className="text-[#12F7D6] text-xs md:text-sm">&lt;/p&gt;</span>
