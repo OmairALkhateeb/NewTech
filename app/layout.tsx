@@ -10,7 +10,7 @@ const cairo = Cairo({
 });
 
 export const metadata: Metadata = {
-  title: "New-Tech",
+  title: "Live-Tech",
   description: "",
 };
 
