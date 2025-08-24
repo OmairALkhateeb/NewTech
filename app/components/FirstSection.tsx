@@ -24,7 +24,7 @@ export default function FirstSection({ sections, scrollToSection }: FirstSection
       <div className="w-screen max-w-screen overflow-x-hidden flex flex-col items-center text-white max-w-xl sm:max-w-4xl md:max-w-7xl mt-0 md:mt-0">
         {/* Title - only on md and above */}
         <h2 className="hidden md:block text-2xl sm:text-3xl md:text-6xl lg:text-7xl font-bold p-2 sm:p-4 md:p-10 text-[#98FAEC] text-center leading-tight">
-          NewTech<br />Team
+          LiveTech<br />Team
         </h2>
 
         {/* Mobile Layout */}
@@ -34,7 +34,7 @@ export default function FirstSection({ sections, scrollToSection }: FirstSection
             <span className="text-[#12F7D6] text-sm">&lt;h1&gt;</span>
             <h3 className="text-lg sm:text-xl font-bold leading-snug">
               Hey,<br />
-              We’re <span style={{ color: '#12f7d6' }}>NewTech</span> Dev Team,<br />
+              We’re <span style={{ color: '#12f7d6' }}>LiveTech</span> Dev Team,<br />
               Full-stack developers building{' '}
               <br />
               <span style={{ color: '#12f7d6' }}>
