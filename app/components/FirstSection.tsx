@@ -151,7 +151,7 @@ export default function FirstSection({ sections, scrollToSection }: FirstSection
             <span className="text-[#12F7D6] text-xs">&lt;h1&gt;</span>
             <h3 className="text-3xl font-bold leading-snug">
               Hey,<br />
-              We’re <span style={{ color: '#12f7d6' }}>NewTech</span> Dev Team,<br />
+              We’re <span style={{ color: '#12f7d6' }}>LiveTech</span> Dev Team,<br />
               Full-stack developers building{' '}
               <span style={{ color: '#12f7d6' }}>
                 <Typewriter
