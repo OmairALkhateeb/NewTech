@@ -41,10 +41,10 @@ export default function SecSection({ sections, scrollToSection }: SecSectionProp
             <span className="text-[#12F7D6] text-xs md:text-sm">&lt;p&gt;</span>
             <br />
             <p className="text-sm md:text-base text-white mb-2 md:mb-3">
-              <span className="text-[#12F7D6] font-extrabold text-lg md:text-xl">NewTec</span>
+              <span className="text-[#12F7D6] font-extrabold text-lg md:text-xl">LiveTech</span>
               <br />
               is a skilled team ready to meet your technical needs. We provide custom software development and digital solutions to help your business grow. Whether you’re a small business or a large company,{' '}
-              <span className="text-[#12F7D6] font-semibold">NewTec</span> delivers tailored technology and support.
+              <span className="text-[#12F7D6] font-semibold">LiveTech</span> delivers tailored technology and support.
               <br />
               With departments strategically located in{' '}
               <span className="text-[#12F7D6] font-semibold">Syria</span>,{' '}
