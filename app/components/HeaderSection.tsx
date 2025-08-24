@@ -6,7 +6,7 @@ export default function HeaderSection() {
       {/* Left: Logo + Title */}
       <div className="flex items-center space-x-2">
         <span className="text-[#12F7D6] text-2xl md:text-3xl font-bold">&lt;C\&gt;</span>
-        <h1 className="text-2xl md:text-3xl font-bold">NewTech</h1>
+        <h1 className="text-2xl md:text-3xl font-bold">LiveTech</h1>
       </div>
 
       {/* Right: Navigation Menu */}
