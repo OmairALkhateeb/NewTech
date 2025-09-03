@@ -1,0 +1,87 @@
+{
+  "FirstSection": {
+    "heading": {
+      "prefix": "LiveTech",
+      "suffix": "Dev Team",
+      "subtitle": {
+        "words": ["scalable apps", "secure APIs", "modern UIs", "cloud-native platforms"]
+      }
+    },
+    "paragraph": {
+      "description": "We help your business grow and reach new heights, turning your ideas into real, profitable solutions.",
+      "vision": "Your vision, transformed into success."
+    },
+    "button": { "contact": "Contact Us" }
+  },
+  "Header": {
+    "home": "Home",
+    "about": "About Us",
+    "skills": "Skills",
+    "work": "Work",
+    "contact": "Contact"
+  },
+  "About": {
+    "heading": "About Us",
+    "subtitle": "Discover who we are and how we help businesses grow through modern, scalable technology.",
+    "description": {
+      "part1": "is a skilled team ready to meet your technical needs. We provide custom software development and digital solutions to help your business grow. Whether you’re a small business or a large company,",
+      "part2": "delivers tailored technology and support. With departments strategically located in",
+      "part3": "and",
+      "part4": "we combine local expertise with global reach to drive your success."
+    },
+    "alt": "About our company"
+  },
+  "Skills": {
+    "heading": "What We Offer",
+    "subtitle": "From simple introductory websites to advanced web management systems, we deliver tailored solutions that meet your business needs with modern design and reliable technology.",
+    "services": [
+      { "title": "Introductory Websites & Apps", "desc": "We design and build elegant company websites, landing pages, and mobile apps that introduce your brand and services in the best way." },
+      { "title": "Administrative Web Systems", "desc": "Custom dashboards and management systems to help businesses organize, monitor, and automate their operations efficiently." },
+      { "title": "Mobile App Development", "desc": "Native and cross-platform mobile applications that are scalable, reliable, and tailored to your users’ needs." },
+      { "title": "UI/UX Design", "desc": "Modern, user-friendly interfaces with focus on experience, accessibility, and brand identity." },
+      { "title": "Hosting & Infrastructure", "desc": "Server setup, cloud deployment, and infrastructure management to keep your apps running smoothly." },
+      { "title": "System Integration", "desc": "Seamless connection between your internal tools and third-party platforms to ensure efficiency." },
+      { "title": "Performance & Security", "desc": "Optimization for speed, scalability, and data security, keeping your business safe and reliable." },
+      { "title": "Maintenance & Support", "desc": "Ongoing technical support, updates, and monitoring to ensure stability and long-term success." },
+      { "title": "Cloud Solutions", "desc": "Deployment and management on cloud platforms with high availability and cost efficiency." }
+    ]
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "typewriter": [
+      "We'd love to hear from you!",
+      "Whether you have a question, feedback, or just want to say hello, feel free to reach out."
+    ],
+    "sendMessage": "Send message",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "placeholders": { "name": "Your Name", "email": "Your Email", "message": "Your Message" },
+    "sendButton": "Send message"
+  },
+  "Works": {
+    "heading": "Latest Projects",
+    "subtitle": "A selection of our recent work across different industries.",
+    "button": "View Details",
+    "projects": {
+      "Major": { "desc": "Enterprise platform for operations." },
+      "Caffiene": { "desc": "E-commerce coffee website." },
+      "OBAA": { "desc": "Branding portfolio site." },
+      "Alfahed": { "desc": "Corporate company website." },
+      "POS": { "desc": "Web-based POS system." },
+      "Nawi": { "desc": "Business management app." }
+    }
+  },
+  "Projects": {
+    "heading": "Our Projects",
+    "subtitle": "Detailed case studies showing how we build scalable, secure, and modern solutions.",
+    "viewDetails": "View Details",
+    "back": "← Back to Projects",
+    "Alfahed": { "title": "Alfahed Project", "short": "Delivery management platform in Kuwait.", "description": "A complete delivery management and distribution system developed specifically for courier companies in Kuwait, using Laravel for the backend and Next.js for the frontend. The system features an admin dashboard that allows managers to handle orders and automatically assign them to drivers based on their locations, with real-time map tracking. It supports automatic order intake via WhatsApp Business API and sends instant notifications to both customers and drivers. Additionally, the platform includes a dedicated driver app that enables drivers to receive, update, and track their orders easily. By integrating Twilio WhatsApp API, Firebase Notifications, and Google Maps API, the platform has greatly enhanced delivery speed, customer satisfaction, and overall operational efficiency." },
+    "OBAA": { "title": "OBAA School", "short": "Smart school management app.", "description": "The OBAA Smart School App provides a comprehensive platform for parents to monitor their children daily while ensuring seamless communication with teachers and school management. Parents can easily access grades, attendance records, homework, and exam schedules anytime, anywhere. The app supports direct messaging between parents and teachers to ensure clear and consistent communication about student performance and needs. It also includes an administrative bulletin board for important school updates, as well as smart reminders for key events and deadlines. With OBAA, following up on students becomes easier and more effective, fostering collaboration between families and schools to achieve the best educational results." },
+    "Caffiene": { "title": "Caffiene App", "short": "Coffee shop booking platform.", "description": "The Caffiene App is a smart and user-friendly platform that allows customers to reserve tables at their favorite cafés quickly and conveniently. The app provides detailed café information, including location, opening hours, photos, and customer reviews, helping users make the right choice. It offers a flexible booking system where users can select the number of guests, date, and time, with the option to modify or cancel reservations effortlessly. Users can also save favorite cafés and receive notifications about special offers and events. For café owners, the app streamlines reservation management, reduces overcrowding, and improves customer satisfaction by presenting services professionally. Simply put, Caffiene makes café visits more enjoyable, organized, and efficient." },
+    "POS": { "title": "POS System", "short": "Mall POS & cashier system.", "description": "The POS System is a fully integrated solution for managing mall operations electronically. It features a smart cashier system, complete user management, real-time monitoring of sales and inventory, and direct invoice printing. The system also supports employee role-based permissions, electronic payments, and generates detailed daily and weekly reports. It simplifies promotions and discount management, ensuring smooth business operations. Designed with a fast and intuitive interface, the POS System works seamlessly across different devices and remains stable even with weak internet connections, making it a reliable solution for modern retail management." },
+    "Nawi": { "title": "Nawi App", "short": "Influencer collaboration platform.", "description": "Nawi is an innovative app that connects influencers, brokers, and clients in a single professional ecosystem. Users can announce projects, products, or travel services and directly collaborate with influencers, choosing the best match based on audience and content relevance. The app allows browsing influencer ads to discover new and trustworthy products or services. Brokers act as mediators to ensure transparency and smooth collaboration. Nawi goes beyond simple advertising – it is a smart system that unites brands, content creators, and consumers into a comprehensive digital experience that enhances opportunities for success and expands market reach." },
+    "Major": { "title": "Major Platform", "short": "Enterprise platform for operations.", "description": "Major is a web-based enterprise platform designed to help organizations efficiently manage their business operations. It provides modules for customer management, project tracking, finance, and HR processes, all accessible in one place. With a modern interface and cloud-native architecture, the platform enables scalability and security while offering real-time analytics to support decision-making. Major helps companies centralize workflows, improve communication across departments, and achieve better efficiency. By leveraging cutting-edge technologies, it allows enterprises to grow sustainably while maintaining operational excellence." }
+  }
+}

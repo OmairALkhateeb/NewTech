@@ -1,0 +1,87 @@
+{
+  "FirstSection": {
+    "heading": {
+      "prefix": "LiveTech",
+      "suffix": "Dev Team",
+      "subtitle": {
+        "words": ["skalierbare Apps", "sichere APIs", "moderne UIs", "cloud-native Plattformen"]
+      }
+    },
+    "paragraph": {
+      "description": "Wir helfen Ihrem Unternehmen zu wachsen und neue Höhen zu erreichen, indem wir Ihre Ideen in reale, profitable Lösungen verwandeln.",
+      "vision": "Ihre Vision, verwandelt in Erfolg."
+    },
+    "button": { "contact": "Kontaktieren Sie uns" }
+  },
+  "Header": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "skills": "Leistungen",
+    "work": "Projekte",
+    "contact": "Kontakt"
+  },
+  "About": {
+    "heading": "Über uns",
+    "subtitle": "Erfahren Sie, wer wir sind und wie wir Unternehmen mit moderner, skalierbarer Technologie zum Wachstum verhelfen.",
+    "description": {
+      "part1": "ist ein kompetentes Team, das bereit ist, Ihre technischen Anforderungen zu erfüllen. Wir bieten individuelle Softwareentwicklung und digitale Lösungen, um Ihr Unternehmen voranzubringen. Ob kleines Unternehmen oder großer Konzern,",
+      "part2": "liefert maßgeschneiderte Technologie und Support. Mit Niederlassungen in",
+      "part3": "und",
+      "part4": "verbinden wir lokales Fachwissen mit globaler Reichweite, um Ihren Erfolg zu fördern."
+    },
+    "alt": "Über unser Unternehmen"
+  },
+  "Skills": {
+    "heading": "Was wir anbieten",
+    "subtitle": "Von einfachen Einführungswebseiten bis hin zu fortschrittlichen Web-Management-Systemen liefern wir maßgeschneiderte Lösungen, die den Anforderungen Ihres Unternehmens mit modernem Design und zuverlässiger Technologie entsprechen.",
+    "services": [
+      { "title": "Einführende Webseiten & Apps", "desc": "Wir entwerfen und entwickeln elegante Firmenwebseiten, Landingpages und mobile Apps, die Ihre Marke und Dienstleistungen bestmöglich präsentieren." },
+      { "title": "Administrative Websysteme", "desc": "Individuelle Dashboards und Verwaltungssysteme, die Unternehmen helfen, ihre Abläufe effizient zu organisieren, zu überwachen und zu automatisieren." },
+      { "title": "Mobile App Entwicklung", "desc": "Native und plattformübergreifende mobile Anwendungen, die skalierbar, zuverlässig und auf die Bedürfnisse Ihrer Nutzer zugeschnitten sind." },
+      { "title": "UI/UX Design", "desc": "Moderne, benutzerfreundliche Oberflächen mit Fokus auf Benutzererlebnis, Zugänglichkeit und Markenidentität." },
+      { "title": "Hosting & Infrastruktur", "desc": "Servereinrichtung, Cloud-Bereitstellung und Infrastrukturmanagement, damit Ihre Anwendungen reibungslos laufen." },
+      { "title": "Systemintegration", "desc": "Nahtlose Verbindung zwischen Ihren internen Tools und Drittanbieterplattformen für maximale Effizienz." },
+      { "title": "Leistung & Sicherheit", "desc": "Optimierung für Geschwindigkeit, Skalierbarkeit und Datensicherheit, damit Ihr Unternehmen sicher und zuverlässig bleibt." },
+      { "title": "Wartung & Support", "desc": "Laufender technischer Support, Updates und Überwachung, um Stabilität und langfristigen Erfolg sicherzustellen." },
+      { "title": "Cloud-Lösungen", "desc": "Bereitstellung und Verwaltung auf Cloud-Plattformen mit hoher Verfügbarkeit und Kosteneffizienz." }
+    ]
+  },
+  "Contact": {
+    "title": "Kontaktieren Sie uns",
+    "typewriter": [
+      "Wir würden gerne von Ihnen hören!",
+      "Ob Sie eine Frage haben, Feedback geben möchten oder einfach nur Hallo sagen wollen – melden Sie sich gerne."
+    ],
+    "sendMessage": "Nachricht senden",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "placeholders": { "name": "Ihr Name", "email": "Ihre E-Mail", "message": "Ihre Nachricht" },
+    "sendButton": "Nachricht senden"
+  },
+  "Works": {
+    "heading": "Neueste Projekte",
+    "subtitle": "Eine Auswahl unserer aktuellen Arbeiten in verschiedenen Branchen.",
+    "button": "Details ansehen",
+    "projects": {
+      "Major": { "desc": "Unternehmensplattform für Betriebsabläufe." },
+      "Caffiene": { "desc": "E-Commerce-Website für Kaffee." },
+      "OBAA": { "desc": "Intelligente Schulverwaltungs-App." },
+      "Alfahed": { "desc": "Liefermanagement-Plattform in Kuwait." },
+      "POS": { "desc": "Webbasiertes Kassensystem (POS)." },
+      "Nawi": { "desc": "Plattform für Influencer-Kooperationen." }
+    }
+  },
+  "Projects": {
+    "heading": "Unsere Projekte",
+    "subtitle": "Detaillierte Fallstudien, die zeigen, wie wir skalierbare, sichere und moderne Lösungen entwickeln.",
+    "viewDetails": "Details ansehen",
+    "back": "← Zurück zu den Projekten",
+    "Alfahed": { "title": "Alfahed Projekt", "short": "Liefermanagement-Plattform in Kuwait.", "description": "Ein komplettes Liefer- und Distributionssystem, das speziell für Kurierunternehmen in Kuwait entwickelt wurde – mit Laravel für das Backend und Next.js für das Frontend. Das System bietet ein Admin-Dashboard, mit dem Bestellungen verwaltet und automatisch Fahrern basierend auf ihrem Standort zugewiesen werden können, inklusive Echtzeit-Tracking auf einer Karte. Es unterstützt die automatische Bestellannahme über die WhatsApp Business API und versendet sofortige Benachrichtigungen an Kunden und Fahrer. Zusätzlich enthält es eine Fahrer-App, mit der Aufträge empfangen und Statusaktualisierungen einfach durchgeführt werden können. Durch die Integration von Twilio WhatsApp API, Firebase Notifications und Google Maps API konnte die Plattform Lieferzeiten verkürzen, die Kundenzufriedenheit verbessern und die betriebliche Effizienz steigern." },
+    "OBAA": { "title": "OBAA Schule", "short": "Intelligente Schul-App.", "description": "Die OBAA Smart School App bietet Eltern eine umfassende Plattform, um ihre Kinder täglich zu überwachen und gleichzeitig eine nahtlose Kommunikation mit Lehrern und der Schulleitung sicherzustellen. Eltern können jederzeit auf Noten, Anwesenheit, Hausaufgaben und Prüfungspläne zugreifen. Die App unterstützt direkte Nachrichten zwischen Eltern und Lehrern, um eine klare und konsistente Kommunikation zu gewährleisten. Außerdem gibt es ein schwarzes Brett für wichtige Schulnachrichten sowie intelligente Erinnerungen für Termine. Mit OBAA wird die Nachverfolgung von Schülern einfacher und effektiver, was die Zusammenarbeit zwischen Familien und Schulen stärkt, um bessere Bildungsergebnisse zu erzielen." },
+    "Caffiene": { "title": "Caffiene App", "short": "Plattform für Café-Reservierungen.", "description": "Die Caffiene App ist eine intelligente und benutzerfreundliche Plattform, mit der Benutzer schnell und bequem einen Tisch in ihrem Lieblingscafé reservieren können. Sie bietet detaillierte Informationen über Cafés wie Standort, Öffnungszeiten, Fotos und Kundenbewertungen, um die richtige Wahl zu erleichtern. Das flexible Buchungssystem ermöglicht die Auswahl von Personenanzahl, Datum und Uhrzeit sowie einfache Änderungen oder Stornierungen. Benutzer können Lieblingscafés speichern und Benachrichtigungen über Angebote und Events erhalten. Für Café-Betreiber vereinfacht die App die Verwaltung von Reservierungen, reduziert Überfüllung und stellt ihre Dienstleistungen professionell dar. Kurz gesagt, Caffiene macht Café-Besuche organisierter und angenehmer." },
+    "POS": { "title": "POS System", "short": "Kassensystem für Einkaufszentren.", "description": "Ein vollständiges Point-of-Sale-System zur elektronischen Verwaltung von Einkaufszentren. Es umfasst ein intelligentes Kassensystem, umfassendes Benutzer-Management, Echtzeit-Überwachung von Verkäufen und Lagerbeständen sowie direkten Rechnungsdruck. Das System unterstützt rollenbasierte Mitarbeiterrechte, Online-Zahlungen und erstellt detaillierte Tages- und Wochenberichte. Es vereinfacht das Management von Rabatten und Angeboten und sorgt für reibungslose Abläufe. Mit einer schnellen, intuitiven Oberfläche funktioniert es zuverlässig auf verschiedenen Geräten – selbst bei schwacher Internetverbindung." },
+    "Nawi": { "title": "Nawi App", "short": "Plattform für Influencer-Kooperationen.", "description": "Nawi ist eine innovative App, die Influencer, Vermittler und Kunden in einem professionellen Ökosystem verbindet. Benutzer können Projekte, Produkte oder Reisen veröffentlichen und direkt mit passenden Influencern zusammenarbeiten, die nach Publikum und Content ausgewählt werden. Die App ermöglicht es auch, Anzeigen von Influencern zu durchsuchen und neue vertrauenswürdige Produkte oder Dienstleistungen zu entdecken. Vermittler agieren als neutrale Instanz, um Transparenz und reibungslose Zusammenarbeit sicherzustellen. Nawi ist mehr als nur eine Werbe-App – es ist ein intelligentes System, das Marken, Content-Ersteller und Verbraucher in einer vollständigen digitalen Erfahrung zusammenführt, den Erfolg fördert und die Reichweite erweitert." },
+    "Major": { "title": "Major Plattform", "short": "Unternehmensplattform für Betriebsabläufe.", "description": "Major ist eine webbasierte Unternehmensplattform, die Organisationen hilft, ihre Geschäftsprozesse effizient zu verwalten. Sie bietet Module für Kundenmanagement, Projektverfolgung, Finanzen und HR – alles an einem Ort. Mit einer modernen Benutzeroberfläche und cloud-nativer Architektur gewährleistet die Plattform Skalierbarkeit und Sicherheit und bietet Echtzeit-Analysen zur Entscheidungsunterstützung. Major hilft Unternehmen, Workflows zu zentralisieren, die Kommunikation zwischen Abteilungen zu verbessern und die Effizienz zu steigern. Durch den Einsatz moderner Technologien unterstützt es nachhaltiges Wachstum und operative Exzellenz." }
+  }
+}
